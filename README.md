@@ -1,4 +1,4 @@
-# unofficial-rocket-league-api (v.---)
+# unofficial-rocket-league-api (v.1.0-beta)
 Unofficial RL API by scraping data from the TRN Page
 
 # Authentication and Rate Limits
@@ -11,12 +11,14 @@ If you exceed rate limit you will get following JSON with 429 Status Code:
 }
 ```
 # Documentation
-The documention for the API is available under https://docs.henrikdev.xyz/rl-api.html [COMING WITH THE RELEASE]
+The documention for the API is available under https://docs.henrikdev.xyz/rl-api.html [COMING SOON]
 
 # Endpoints
 - The base url is https://api.henrikdev.xyz
+- Season numbers are from 1 to 16, where 16 is the current season
 - Available profile/player endpoints will be for the initial release:
-  - Not decided currently
+  - /rocket-league/v1/profile/{platform}/{username} ⚠️
+  - /rocket-league/v1/profile/{platform}/{username}?filter={season-number} ⚠️
 
 ⚠️== Beta | ❌ == Deprecated, will result in 410 Error
   
