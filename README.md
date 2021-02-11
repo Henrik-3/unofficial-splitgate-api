@@ -1,4 +1,4 @@
-# unofficial-rocket-league-api (v.1.0-beta)
+# unofficial-rocket-league-api (v.1.0.1-beta)
 Unofficial RL API by scraping data from the TRN Page
 
 # Authentication and Rate Limits
@@ -19,6 +19,7 @@ The documention for the API is available under https://docs.henrikdev.xyz/rl-api
 - Available profile/player endpoints will be for the initial release:
   - /rocket-league/v1/profile/{platform}/{username} ⚠️
   - /rocket-league/v1/profile/{platform}/{username}?filter={season-number} ⚠️
+  - /rocket-league/v1/matches/{platform}/{username} ⚠️⚠️⚠️ [Only works for a part of the users because TRN is packing matches together] ⚠️⚠️⚠️
 
 ⚠️== Beta | ❌ == Deprecated, will result in 410 Error
   
