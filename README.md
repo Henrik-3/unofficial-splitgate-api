@@ -1,11 +1,11 @@
-# unofficial-rocket-league-api (v.1.0.1-beta)
-Unofficial RL API by scraping data from the TRN Page
+# unofficial-splitgate-api (v.1.0-beta)
+Unofficial Splitgate API
 
 # Status
 See the current status of the API here: https://status.henrikdev.xyz/
 
 # Authentication and Rate Limits
-All rate limits are the same for every endpoint, so in general you have **200 Requests every 2 Minutes**. Your rate limit is based on your IP so you don't need an API Key for authentication.
+All rate limits are the same for every endpoint, so in general you have **250 Requests every 2.5 Minutes**. Your rate limit is based on your IP so you don't need an API Key for authentication. 
 If you exceed rate limit you will get following JSON with 429 Status Code:
 ```json
 {
@@ -14,15 +14,12 @@ If you exceed rate limit you will get following JSON with 429 Status Code:
 }
 ```
 # Documentation
-The documention for the API is available under https://docs.henrikdev.xyz/rl-api.html [COMING SOON]
+The documention for the API is available under https://docs.henrikdev.xyz/splitgate-api.html [COMING SOON]
 
 # Endpoints
 - The base url is https://api.henrikdev.xyz
-- Season numbers are from 1 to 16, where 16 is the current season
-- Available profile/player endpoints will be for the initial release:
-  - /rocket-league/v1/profile/{platform}/{username} ⚠️
-  - /rocket-league/v1/profile/{platform}/{username}?filter={season-number} ⚠️
-  - /rocket-league/v1/matches/{platform}/{username} ⚠️⚠️⚠️ [Only works for a part of the users because TRN is packing matches together] ⚠️⚠️⚠️
+- Available endpoints will be for the initial release:
+  - /splitgate/v1/queue-time ⚠️
 
 ⚠️== Beta | ❌ == Deprecated, will result in 410 Error
   
