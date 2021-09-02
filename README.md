@@ -14,12 +14,13 @@ If you exceed rate limit you will get following JSON with 429 Status Code:
 }
 ```
 # Documentation
-The documention for the API is available under https://docs.henrikdev.xyz/splitgate-api.html [COMING SOON]
+The documention for the API is available under https://docs.henrikdev.xyz/splitgate-api [COMING SOON]
 
 # Endpoints
 - The base url is https://api.henrikdev.xyz
 - Available endpoints will be for the initial release:
   - /splitgate/v1/queue-time ⚠️
+  - /splitgate/v1/store ⚠️
 
 ⚠️== Beta | ❌ == Deprecated, will result in 410 Error
   
@@ -35,7 +36,7 @@ The documention for the API is available under https://docs.henrikdev.xyz/splitg
 - N.A
 
 # Other Stuff
-Also would be happy if you give the project a star and give credit when you use it. If you wanna help me to pay the server (15€ per month), you can help us over the donation link from my hoster: [Link](https://spenden.pp-h.eu/7cca1276-84ee-446f-9b07-47c668eaddfe).
+Also would be happy if you give the project a star and give credit when you use it. If you wanna help me to pay the server (11€ per month), you can help us over the donation link from my hoster: [Link](https://spenden.pp-h.eu/7cca1276-84ee-446f-9b07-47c668eaddfe).
 
 - Other API's
   - https://github.com/Henrik-3/unofficial-valorant-api
